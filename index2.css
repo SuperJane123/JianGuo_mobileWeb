@@ -1,0 +1,207 @@
+/*头部工具栏开始*/
+body {
+    background: #ededed;
+}
+.top_bar {
+    background: #333437;
+    height: 45px;
+    line-height: 45px;
+}
+.top_bar ul {
+    width: 720px;
+    margin: 0 auto;
+}
+.top_bar li {
+    float: left;
+    margin-right: 40px;
+    font-size: 12px;
+}
+.top_bar li:last-child {
+    margin-right: 0;
+}
+.top_bar li a {
+    color: #c4c4c5;
+}
+/*头部工具栏开始*/
+
+/*头部开始*/
+header {
+    background: #fff;
+    height: 74px;
+    line-height: 74px;
+}
+
+header .head_nav li {
+    float: left;
+    font-size: 12px;
+    margin-right: 28px;
+}
+
+header .input input[type="text"]{
+    width: 325px;
+    height: 34px;
+    border: 1px solid #f0f0f0;
+    margin: 18px 0;
+    border-radius: 17px;
+}
+
+/*头部结束*/
+
+/*大板块海报开始*/
+.banner {
+    margin: 25px 0;
+}
+.banner img {
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+}
+
+/*大板块海报结束*/
+/*中间4块海报开始*/
+.middle ul {
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+}
+.middle li {
+    float: left;
+    width: 303px;
+}
+.middle li img {
+    width: 100%;
+}
+
+/*中间4块海报结束*/
+
+/*热门商品开始*/
+.hot_pro {
+    border: 1px solid #e2e2e2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.hot_pro .hot_title {
+    background: #fafafa;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.hot_pro .hot_title h3 {
+    font-size: 20px;
+    color: #666;
+    padding: 20px 0;
+    
+}
+.hot_pro .hot_content li {
+    width: 304px;
+    background: #fff;
+    text-align: center;
+}
+.hot_pro .hot_content li h3 {
+    font-size: 14px;
+    color: #5c5c5c;
+    margin-bottom: 18px;
+}
+.hot_pro .hot_content li p {
+    font-size: 12px;
+    color: #9e999e;
+}
+.hot_pro .hot_content li .money {
+    display: block;
+    font-size: 16px;
+    color: #d44d4a;
+    font-weight: 600;
+    margin-top: 20px;
+    padding-bottom: 35px;
+}
+.hot_pro .hot_content li {
+    float: left;
+    border-right: 1px solid #e2e2e2;
+}
+.hot_pro .hot_content li:last-child {
+    border-right: 0;
+}
+
+
+/*热门商品开始*/
+
+/*坚果手机及配件开始*/
+
+.jg_phone .jg_title {
+    background: #fafafa;
+    padding-left: 25px;
+    border: 1px  solid #e2e2e2;
+    border-bottom: 0;
+     border-radius: 10px 10px 0 0;
+}
+.jg_phone .jg_title h3 {
+    font-size: 20px;
+    color: #666;
+    padding: 20px 0;
+}
+.jg_phone .jg_content1 li:nth-child(1) {
+    width: 608px;
+    padding-top: 0;
+}
+.jg_phone .jg_content1 li:nth-child(1) img {
+    width: 100%;
+}
+.jg_phone .jg_content1 li {
+    float: left;
+    width: 303px;
+    text-align: center;
+    padding-top: 36px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+}
+.jg_phone .text  h3 {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.jg_content1 .text li p {
+    color: #adadad;
+    font-size: 14px;
+}
+.jg_content1 .text .money {
+    display: block;
+    color: #d44d44;
+    font-size: 18px;
+    margin: 24px 0 35px 0;
+    font-weight: 600;
+}
+
+/*坚果手机及配件结束*/
+
+/*尾部样式开始*/
+footer {
+    background: #fafafa;
+    padding-top: 60px;
+    margin-top: 25px;
+}
+footer .footer_help dl {
+    float: left;
+}
+footer .footer_help dl dt {
+    font-size: 14px;
+    color: #828282;
+    font-weight: 600;
+    margin-right: 90px;
+    margin-bottom: 27px;
+}
+footer .footer_help dl dd {
+    font-size: 14px;
+    color: #9d9d9b;
+    height: 28px;
+}
+footer .footer_number h3 {
+    font-size: 20px;
+    color: #5079de;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+footer .footer_number .huafei {
+    position: relative;
+    right:-70px;
+}
+
+/*尾部样式结束*/
